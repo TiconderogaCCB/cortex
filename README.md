@@ -30,10 +30,10 @@ cortex/
 ├── ckb/                    # Cognitive Knowledge Base
 │   ├── journal.md          # Running session journal
 │   └── sessions/           # Dated session logs
-└── peb/                    # Personal Experience Base (optional — own layer)
+└── peb/                    # Personal Experience Base (optional - own layer)
     ├── profile.md          # Who you are and how you think (public shape)
     ├── skills.md           # Demonstrated skills with context and evidence
-    ├── journey.md          # The full story — how you got here
+    ├── journey.md          # The full story - how you got here
     ├── values.md           # Values expressed through choices
     ├── history.md          # Significant decisions and what they revealed
     └── private/            # Owner-only, never indexed (gitignored)
@@ -45,7 +45,7 @@ cortex/
 
 **TKB (Technical):** What the AI needs to be useful in the work. Project-specific, written to be handed off. If the project were handed to a new engineer with an AI assistant, the TKB gives the AI everything it needs to be helpful from day one.
 
-**CKB (Cognitive):** The human side of the work. How you got here, what you tried, what failed, how the thinking evolved. Not useful to an AI doing technical tasks — useful to an AI working with *you specifically* on understanding and strategy.
+**CKB (Cognitive):** The human side of the work. How you got here, what you tried, what failed, how the thinking evolved. Not useful to an AI doing technical tasks - useful to an AI working with *you specifically* on understanding and strategy.
 
 **PEB (Personal):** Portable personal record. Not a resume, not a profile page. Structured personal history queryable by an AI the same way the TKB is queryable for technical context. Travels with the person across any job, project, or platform.
 
@@ -55,7 +55,7 @@ These layers are independent. You can run just TKB. You can add CKB later. PEB i
 
 ## The Bootstrap Pattern
 
-The cortex is only as useful as what loads at session start. The bootstrap is a curated summary of the highest-signal content — recent session logs, open decisions, active pitfalls — delivered in a format the AI can use immediately.
+The cortex is only as useful as what loads at session start. The bootstrap is a curated summary of the highest-signal content - recent session logs, open decisions, active pitfalls - delivered in a format the AI can use immediately.
 
 ```text
 Session start → bootstrap → AI has context → work begins informed
@@ -101,7 +101,7 @@ The cortex is worth maintaining only if the entries are worth reading. A few pri
 
 **Write with evidence, not aspiration.** "I am good at X" is noise. "We decided against X because of Y, and here's what that cost us" is signal.
 
-**Decisions require rationale.** Not just "we chose this" — "we chose this over these alternatives, because of these constraints, and here's what would have to change for us to revisit it."
+**Decisions require rationale.** Not just "we chose this" - "we chose this over these alternatives, because of these constraints, and here's what would have to change for us to revisit it."
 
 **Pitfalls require reproduction steps.** A pitfall without a specific trigger is just vague anxiety. "This fails when Z happens" is useful. "Be careful with X" is not.
 
@@ -149,4 +149,4 @@ You own your cortex content entirely. This license covers the framework itself.
 
 ## Author
 
-> *Not a coder or developer by trade, but I've transformed a bit over the last couple of years into a new type of systems architect at night, and construction professional by day. I've been in the commercial construction industry for over a decade. About two years ago, after listening to a Bill Gates interview, I made it a personal goal to learn and absorb as many elements of AI and other technological developments as possible in an effort to understand and play a role in that emerging field. Knowing my limitations and lack of traditional technical training, I've been working on effective ways to document my individual contributions to the development of software, and other projects I'm passionate about. This repo is a reflection of that work — a practitioner's attempt to make the collaboration compound rather than reset.*
+> *Not a coder or developer by trade, but I've transformed a bit over the last couple of years into a new type of systems architect at night, and construction professional by day. I've been in the commercial construction industry for over a decade. About two years ago, after listening to a Bill Gates interview, I made it a personal goal to learn and absorb as many elements of AI and other technological developments as possible in an effort to understand and play a role in that emerging field. Knowing my limitations and lack of traditional technical training, I've been working on effective ways to document my individual contributions to the development of software, and other projects I'm passionate about. This repo is a reflection of that work - a practitioner's attempt to make the collaboration compound rather than reset.*
