@@ -12,13 +12,13 @@ The AI would make the same mistakes we'd already fixed. It would propose pattern
 
 The official answer is "put everything in the prompt." Which is fine until your project has eighteen months of accumulated decisions, a dozen discovered bugs, and patterns that only make sense in context.
 
-So we built one out through trial and error. We call it the cortex.
+So we built one out through trial and error. We call it K9Core.
 
 ---
 
-## What the Cortex Is
+## What K9Core Is
 
-The cortex is a directory of plain Markdown files. No framework. No database required. No magic. The structure is what makes it useful.
+K9Core is a directory of plain Markdown files. No framework. No database required. No magic. The structure is what makes it useful.
 
 It has two main layers:
 
@@ -53,7 +53,7 @@ It's also a way to track my own personal growth with the technology, and to reco
 
 ## The Vector Layer
 
-The Markdown files are human-readable and AI-queryable. A background indexing process embeds all cortex content into vectors - so rather than loading everything at session start, semantic search returns the specific entries that matter right now. As the cortex grows, this becomes the difference between a useful tool and an overwhelming one.
+The Markdown files are human-readable and AI-queryable. A background indexing process embeds all K9Core content into vectors - so rather than loading everything at session start, semantic search returns the specific entries that matter right now. As K9Core grows, this becomes the difference between a useful tool and an overwhelming one.
 
 ---
 
@@ -63,15 +63,15 @@ The next layer is personal: a structured record of demonstrated skills, values e
 
 Not a resume. Not a profile page. A record of judgment demonstrated in context, organized so an AI can accurately answer: "What are this person's actual strengths?" or "What has this person done when things got hard?"
 
-The idea is that knowledge - technical, cognitive, personal - compounds when it's structured. The cortex is an infrastructure play on your own accumulated wisdom.
+The idea is that knowledge - technical, cognitive, personal - compounds when it's structured. K9Core is an infrastructure play on your own accumulated wisdom.
 
 ---
 
 ## The Anti-Template Warning
 
-The cortex is not a template you install. It's a discipline you maintain. The value comes from accumulated specificity - the pitfall that's relevant to *your* codebase, the decision that made sense in *your* context, the session log that captures why *you* chose what you chose.
+K9Core is not a template you install. It's a discipline you maintain. The value comes from accumulated specificity - the pitfall that's relevant to *your* codebase, the decision that made sense in *your* context, the session log that captures why *you* chose what you chose.
 
-A cortex you copy from someone else is not your cortex. Start with structure and fill it with your own content. Write badly at first. The discipline matters more than the quality of any individual entry.
+A K9Core you copy from someone else is not your K9Core. Start with structure and fill it with your own content. Write badly at first. The discipline matters more than the quality of any individual entry.
 
 ---
 
@@ -79,9 +79,9 @@ A cortex you copy from someone else is not your cortex. Start with structure and
 
 Not because I've solved anything. Because I spent a year building something in private that's worth describing publicly, and describing it is how you find out if it's as useful as you think.
 
-If you're working with AI on anything real - a product, a codebase, a research project - and you're not maintaining some version of a persistent memory layer, you're starting over every session. The cortex pattern is one answer to that. There are others. The question is worth taking seriously.
+If you're working with AI on anything real - a product, a codebase, a research project - and you're not maintaining some version of a persistent memory layer, you're starting over every session. The K9Core pattern is one answer to that. There are others. The question is worth taking seriously.
 
-The framework is open source: [github.com/TiconderogaCCB/cortex](https://github.com/TiconderogaCCB/cortex)
+The framework is open source: [github.com/TiconderogaCCB/K9Core](https://github.com/TiconderogaCCB/K9Core)
 
 ---
 
